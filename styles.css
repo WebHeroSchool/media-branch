@@ -1,0 +1,52 @@
+@media (min-width:320px) {
+    font-size: 28px;
+}
+@media (min-width:481px) {
+    font-size: 32px;
+}
+@media (min-width:641px) {
+    font-size: 36px;
+}
+@media (min-width:961px) {
+    font-size: 40px;
+}
+@media (min-width:1025px) {
+    font-size: 44px;
+}
+@media (min-width:1281px) {
+    font-size: 48px;
+}
+body {
+    background-image: url('https://avatars.mds.yandex.net/get-pdb/752643/2ea77f74-ead6-4089-8583-49db43f4ad4e/s1200?webp=false')
+}
+    .div {
+      text-align: left;
+      font-family: Times;
+      }
+    h1 + h2 {
+     font-weight: bold;
+    }
+    h1.title {
+     text-align: right;
+     font-style: italic;
+     color: brown;
+    }
+    h2.title {
+      text-align: center;
+      color: blue;
+    }
+    div > p {
+      line-break: strict;
+      line-height: 1.5;
+      margin-bottom: 50px;
+      font-style: italic;
+      color: purple;
+      }
+    h3 {
+      font-family: Arial;
+      color: green;
+    }
+    p:first-letter {
+      color: red;
+      font-weight: bold;
+    }

@@ -12,6 +12,7 @@ body {
   }
 
 .rectangle {
+  display: flex;
   width: 50px;
   top: 5px;
   padding-bottom: 10px;

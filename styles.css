@@ -7,17 +7,6 @@ body {
     font-weight: bold;
     font-family: Arial;
 }
-.toggle-nav {
-  display: none;
-  }
-
-.rectangle {
-  display: flex;
-  width: 50px;
-  top: 5px;
-  padding-bottom: 10px;
-  background: grey;
-}  
   
 .menu {
   display: flex;
@@ -80,17 +69,11 @@ div > p {
   body {
     font-size: 28px;
   }
-  .menu {
-    display: none;
-  }
 }
 
 @media (min-width:481px) {
   body {
     font-size: 32px;
-  }
-  .menu {
-    display: none;
   }
 }
 
@@ -98,17 +81,11 @@ div > p {
   body {
     font-size: 36px;
   }
-  .menu {
-    display: none;
-  }
 }
 
 @media (min-width:961px) {
   body {
     font-size: 40px;
-  }
-  .rectangle {
-    display: none;
   }
 }
 
@@ -116,16 +93,10 @@ div > p {
   body {
     font-size: 44px;
   }
-  .rectangle {
-    display: none;
-  }
 }
 
 @media (min-width:1281px) {
   body {
     font-size: 48px;
-  }
-  .rectangle {
-    display: none;
   }
 }
